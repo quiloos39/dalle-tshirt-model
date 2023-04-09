@@ -76,7 +76,7 @@ const SearchPage = () => {
       {isLoading ? <div className="bg-gray-500 w-[256px] h-[256px] animate-pulse" /> : <Renderer texture={url!} />}
 
       <motion.div
-        className="absolute left-auto right-auto w-full max-w-[800px]"
+        className="absolute left-auto right-auto w-full max-w-[800px] px-5"
         initial={{
           bottom: 100,
           opacity: 0.2,

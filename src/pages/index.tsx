@@ -38,7 +38,7 @@ const Homepage = () => {
 
   return (
     <div className="h-screen flex items-center justify-center flex-col">
-      <div className="w-full max-w-[800px] ">
+      <div className="w-full max-w-[800px] px-5">
         <p className="text-gray-600 mb-2">Start with a detailed description</p>
         <SearchBar search={search} onChange={(search) => setSearch(search)} ref={searchBarRef} onClick={() => onSubmit(search)} />
       </div>
